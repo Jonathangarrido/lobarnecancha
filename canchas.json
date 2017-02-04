@@ -1,0 +1,516 @@
+[
+  {
+    "nombre": "La Copa",
+    "sector": "cerro 18 sur",
+    "canchasNumero": 1,
+    "canchas": [
+      {
+        "suelo": "asfalto",
+        "precio": 0,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "",
+    "horario": ["","23:00"],
+    "servicios": ["tribunas"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.360089,-70.497947],
+    "imagenes":{
+      "principal":"la-copa",
+      "galeria":[]
+    }
+  },
+
+  {
+    "nombre": "La Vuelta",
+    "sector": "cerro 18 sur",
+    "canchasNumero": 1,
+    "canchas": [
+      {
+        "suelo": "pasto",
+        "precio": 0,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "",
+    "horario": ["","23:00"],
+    "servicios": ["tribunas"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.357593,-70.498863],
+    "imagenes":{
+      "principal":"la-vuelta",
+      "galeria":[]
+    }
+  },
+
+  {
+    "nombre": "El Chuncho",
+    "sector": "Cerro 18 Norte",
+    "canchasNumero": 1,
+    "canchas": [
+      {
+        "suelo": "pasto",
+        "precio": 5000,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["19:00","23:00"],
+    "servicios": ["tribunas"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.352152,-70.503071],
+    "imagenes":{
+      "principal":"el-chuncho",
+      "galeria":["el-chuncho-1","el-chuncho-2"]
+    }
+  },
+
+  {
+    "nombre": "Paradero c01",
+    "sector": "Cerro 18 Norte",
+    "canchasNumero": 2,
+    "canchas": [
+      {
+        "suelo": "pasto",
+        "precio": 5000,
+        "tipo": "baby"
+      },
+      {
+        "suelo": "asfalto",
+        "precio": 3500,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","23:00"],
+    "servicios": ["tribunas","baño"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.353399,-70.500081],
+    "imagenes":{
+      "principal":"cerro-norte",
+      "galeria":["cerro-norte-1","cerro-norte-2"]
+    }
+  },
+
+  {
+    "nombre": "Los Quincheros",
+    "sector": "Cerro 18 Norte",
+    "canchasNumero": 2,
+    "canchas": [
+      {
+        "suelo": "pasto",
+        "precio": 5000,
+        "tipo": "baby"
+      },
+      {
+        "suelo": "asfalto",
+        "precio": 3500,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","23:00"],
+    "servicios": ["tribunas"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.356928,-70.502793],
+    "imagenes":{
+      "principal":"los-quincheros",
+      "galeria":["los-quincheros-1","los-quincheros-2"]
+    }
+  },
+
+  {
+    "nombre": "San Lucas",
+    "sector": "El Roble",
+    "canchasNumero": 1,
+    "canchas": [
+      {
+        "suelo": "asfalto",
+        "precio": 3500,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","23:00"],
+    "servicios": ["tribunas"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.356928,-70.502793],
+    "imagenes":{
+      "principal":"los-quincheros"
+    }
+  },
+
+  {
+    "nombre": "La Ponderosa",
+    "sector": "El Roble",
+    "canchasNumero": 1,
+    "canchas": [
+      {
+        "suelo": "pasto",
+        "precio": 5000,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","23:00"],
+    "servicios": ["tribunas","baño"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.360449,-70.511354],
+    "imagenes":{
+      "principal":"la-ponderosa"
+    }
+  },
+
+  {
+    "nombre": "Nebraska",
+    "sector": "El Roble",
+    "canchasNumero": 1,
+    "canchas": [
+      {
+        "suelo": "asfalto",
+        "precio": 3500,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","23:00"],
+    "servicios": ["tribunas"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.360701,-70.508159],
+    "imagenes":{
+      "principal":"nebraska"
+    }
+  },
+
+  {
+    "nombre": "1ra Etapa",
+    "sector": "Lo Hermita",
+    "canchasNumero": 3,
+    "canchas": [
+      {
+        "suelo": "asfalto",
+        "precio": 0,
+        "tipo": "baby"
+      },
+      {
+        "suelo": "Pasto",
+        "precio": 0,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","23:00"],
+    "servicios": ["tribunas"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.363575,-70.498064],
+    "imagenes":{
+      "principal":"1ra-etapa",
+      "galeria": ["1ra-etapa-1","1ra-etapa-2"]
+    }
+  },
+
+  {
+    "nombre": "Puente Azul",
+    "sector": "Lo Hermita",
+    "canchasNumero": 1,
+    "canchas": [
+      {
+        "suelo": "Pasto",
+        "precio": 0,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","23:00"],
+    "servicios": [],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.364994,-70.507406],
+    "imagenes":{
+      "principal":"puente-azul",
+      "galeria": ["puente-azul-1","puente-azul-2"]
+    }
+  },
+
+  {
+    "nombre": "4ta Etapa",
+    "sector": "Lo Hermita",
+    "canchasNumero": 1,
+    "canchas": [
+      {
+        "suelo": "asfalto",
+        "precio": 0,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","23:00"],
+    "servicios": [],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.365561,-70.510838],
+    "imagenes":{
+      "principal":"4ta-etapa",
+      "galeria": ["4ta-etapa-1","4ta-etapa-2"]
+    }
+  },
+
+  {
+    "nombre": "Las Lomas 1",
+    "sector": "Las Lomas",
+    "canchasNumero": 1,
+    "canchas": [
+      {
+        "suelo": "asfalto",
+        "precio": 0,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","23:00"],
+    "servicios": [],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.362936,-70.500953],
+    "imagenes":{
+      "principal":"las-lomas-1",
+      "galeria": ["las-lomas-1-1","las-lomas-1-2"]
+    }
+  },
+
+  {
+    "nombre": "Pastor Fernandez",
+    "sector": "San Enrique",
+    "canchasNumero": 1,
+    "canchas": [
+      {
+        "suelo": "asfalto",
+        "precio": 5000,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","23:00"],
+    "servicios": ["baño"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.362956,-70.485374],
+    "imagenes":{
+      "principal":"pastor-fernandez",
+      "galeria": ["pastor-fernandez-1","pastor-fernandez-2"]
+    }
+  },
+
+  {
+    "nombre": "El Tranque",
+    "sector": "El Tranque",
+    "canchasNumero": 1,
+    "canchas": [
+      {
+        "suelo": "asfalto",
+        "precio": 5000,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","23:00"],
+    "servicios": [],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.352440,-70.509028],
+    "imagenes":{
+      "principal":"el-tranque",
+      "galeria": ["el-tranque-1","el-tranque-2"]
+    }
+  },
+
+  {
+    "nombre": "San Jose",
+    "sector": "Parroquia",
+    "canchasNumero": 1,
+    "canchas": [
+      {
+        "suelo": "salon",
+        "precio": 5000,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","23:00"],
+    "servicios": ["baño","camarines","tribunas"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.361962,-70.503341],
+    "imagenes":{
+      "principal":"san-jose",
+      "galeria": ["san-jose-1","san-jose-2"]
+    }
+  },
+
+  {
+    "nombre": "San Esteban",
+    "sector": "Parroquia",
+    "canchasNumero": 3,
+    "canchas": [
+      {
+        "suelo": "salon",
+        "precio": 10000,
+        "tipo": "baby"
+      },
+      {
+        "suelo": "pasto",
+        "precio": 10000,
+        "tipo": "baby"
+      },
+      {
+        "suelo": "pasto",
+        "precio": 14000,
+        "tipo": "futbolito"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","00:00"],
+    "servicios": ["baño","camarines","estacionamientos","tribunas"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.361346,-70.506691],
+    "imagenes":{
+      "principal":"san-esteban",
+      "galeria": ["san-esteban-1","san-esteban-2","san-esteban-3"]
+    }
+  },
+
+  {
+    "nombre": "Estados Americanos",
+    "sector": "Lo Hermita",
+    "canchasNumero": 1,
+    "canchas": [
+      {
+        "suelo": "salon",
+        "precio": 10000,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","00:00"],
+    "servicios": ["baño","camarines","tribunas"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.364436,-70.498825],
+    "imagenes":{
+      "principal":"estado-americanos",
+      "galeria": ["estado-americanos-1","estado-americanos-2","estado-americanos-3"]
+    }
+  },
+
+  {
+    "nombre": "Gym Municipal",
+    "sector": "Los Patos",
+    "canchasNumero": 1,
+    "canchas": [
+      {
+        "suelo": "salon",
+        "precio": 10000,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","23:00","El Gym no tiene horario especificos, así que llamar al contacto para conocer el horario de arriendo"],
+    "servicios": ["baño","camarines","tribunas"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.364436,-70.498825],
+    "imagenes":{
+      "principal":"estado-americanos",
+      "galeria": ["estado-americanos-1","estado-americanos-2","estado-americanos-3"]
+    }
+  },
+
+  {
+    "nombre": "Gym Municipal",
+    "sector": "Los Patos",
+    "canchasNumero": 1,
+    "canchas": [
+      {
+        "suelo": "salon",
+        "precio": 10000,
+        "tipo": "baby"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["","23:00","El Gym no tiene horario especificos, así que llamar al contacto para conocer el horario de arriendo"],
+    "servicios": ["baño","camarines","tribunas"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.364436,-70.498825],
+    "imagenes":{
+      "principal":"estado-americanos",
+      "galeria": ["estado-americanos-1","estado-americanos-2","estado-americanos-3"]
+    }
+  },
+
+  {
+    "nombre": "4 Canchas",
+    "sector": "Raul Labbe",
+    "canchasNumero": 3,
+    "canchas": [
+      {
+        "suelo": "pasto",
+        "precio": 40000,
+        "tipo": "fútbol"
+      }
+    ],
+    "detalleCobro": "",
+    "contacto": "+56222425856",
+    "horario": ["10:00","23:00","No disponible sábado y domingo ni los viernes despues de la 17:00 "],
+    "servicios": ["baño","camarines","tribunas","estacionamientos"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.364167,-70.511232],
+    "imagenes":{
+      "principal":"4-canchas",
+      "galeria": ["4-canchas-1","4-canchas-2","4-canchas-3"]
+    }
+  },
+
+  {
+    "nombre": "Pato Cornejo",
+    "sector": "Cantagallo",
+    "canchasNumero": 5,
+    "canchas": [
+      {
+        "suelo": "pasto",
+        "precio": 24000,
+        "tipo": "baby"
+      },
+      {
+        "suelo": "pasto",
+        "precio": 35000,
+        "tipo": "futbolito"
+      },
+      {
+        "suelo": "pasto",
+        "precio": 40000,
+        "tipo": "fútbol"
+      }
+    ],
+    "detalleCobro": "Los precios son para despues de la 19:00, antes de esa hora el precio es diferente. baby: 18.000 - futbolito: 25.000 - futbol: 35.000",
+    "contacto": "+56222425856",
+    "horario": ["10:00","23:00"],
+    "servicios": ["baño","camarines","estacionamientos"],
+    "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.", 
+    "mapa":[-33.364167,-70.511232],
+    "imagenes":{
+      "principal":"pato-cornejo",
+      "galeria": ["pato-cornejo-1","pato-cornejo-2","pato-cornejo-3"]
+    }
+  }
+]
