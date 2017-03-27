@@ -1,0 +1,8 @@
+.header{
+  @extend .wrapper;
+  background-color: green;
+  color: white;
+  font-weight: lighter;
+  height: 15rem;
+  width: 100vw;
+}

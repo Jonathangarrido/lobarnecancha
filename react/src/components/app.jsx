@@ -1,6 +1,9 @@
-import React from 'react'  
+import React, { Component } from 'react';
 
-export default class App extends React.Component { 
+import Header from './header'
+import ListItems from './list-items'
+
+export default class App extends Component { 
   constructor(props) {
     super(props)
     this.state = {}
@@ -8,7 +11,8 @@ export default class App extends React.Component {
   render () {
     return (
       <div>
-        <h1>React BarneCancha</h1>
+       <Header />
+       <ListItems />
       </div>
     )
   }

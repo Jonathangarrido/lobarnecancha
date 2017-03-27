@@ -19,6 +19,11 @@ module.exports = {
         query: {
           presets: ['react', 'es2015']
         }
+      },
+      {
+        test: /\.scss$/,
+        // loader: 'style-loader!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss-loader!sass-loader' 
+        loader: 'style-loader!css-loader!postcss-loader!sass-loader' 
       }
     ]
   },

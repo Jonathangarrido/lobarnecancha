@@ -1,0 +1,25 @@
+.items{
+  background: white;
+  padding: 1rem;
+}
+
+.cancha__target{
+  @extend .wrapper;
+  border: solid 1px navy;
+  padding: 1rem;
+  margin: .5rem 0;
+  cursor: pointer;
+  h3{
+    margin: 0;
+  }
+  th{
+    text-align: left;
+    position: relative;
+    padding-right: .5rem;
+    &:after{
+      content: ':';
+      position: absolute;
+      right: 0;
+    }
+  }
+}
