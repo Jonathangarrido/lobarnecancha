@@ -1,45 +1,44 @@
-import React, { Component } from 'react';
-import firebase from 'firebase'
+import React, { Component, PropTypes } from 'react';
 import { Link } from 'react-router'
 
-export default class ListItems extends Component { 
+const propTypes = {
+  canchas: PropTypes.array
+}
+const defaultProps = {
+  canchas: [],
+}
+
+
+class ListItems extends Component { 
   constructor(props) {
     super(props)
-    this.state = {
-      canchas : []
-    }
-
   }
 
-  componentWillMount () {
-    firebase.database().ref('canchas').on('value', snapshot => {
-      this.setState({ canchas : snapshot.val()})
-    })
-    
-  }
-
-  handleURL(name){
-    return name.toLowerCase().replace(/\s/g,"-");
-  }
-
-  
   render () {
     return (
-      <section className="items">
+      <section className="contenido lista-contenido">
         {
-          this.state.canchas.map((cancha, index)=> (
+          this.props.canchas.map((cancha, index)=> {
             
-            <Link to={`/`+index} className="cancha__target" key={index}>
-               {cancha.nombre}
-            </Link>
-            /*
-            <Link to={`/`+this.handleURL(cancha.nombre)} className="cancha__target" key={index}>
-               {cancha.nombre}
-            </Link>
-            */
-          ))
+            if(cancha.nombre.toLowerCase().search(this.props.inputValue) >  -1) {
+              return (
+                <Link to={`/`+index} className="cancha__target" key={index}>
+                  {cancha.nombre}
+                </Link>
+              )
+            }	
+            
+            
+            
+          })
         }
       </section>
     )
   }
 }
+
+
+ListItems.propTypes = propTypes;
+ListItems.defaultProps = defaultProps;
+
+export default ListItems;

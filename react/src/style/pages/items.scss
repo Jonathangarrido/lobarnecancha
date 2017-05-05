@@ -1,6 +1,7 @@
-.items{
-  background: white;
-  padding: 1rem;
+.lista-contenido{
+  @extend .contenido;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .cancha__target{
@@ -9,6 +10,8 @@
   padding: 1rem;
   margin: .5rem 0;
   cursor: pointer;
+  display: inline-block;
+  width: calc(50vw - 1rem);
   h3{
     margin: 0;
   }
