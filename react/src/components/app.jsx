@@ -1,8 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component }
+ from 'react';
 import firebase from 'firebase'
 
-import ListItems from './list-items'
-import Search from './search'
+import ListItems from './List-items'
+import Search from './Search'
+import PiePagina from './Pie'
 
 export default class App extends Component { 
   constructor(props) {
@@ -28,10 +30,11 @@ export default class App extends Component {
 
   render () {
     return (
-      <div>
+      <div className="grid-main">
        <header className='header'>BarneCanchas</header>
        <Search searchBy={this.searchBy} />
        <ListItems canchas={this.state.canchas} inputValue={this.state.inputValue.toLowerCase()}/>
+       <PiePagina />
       </div>
     )
   }

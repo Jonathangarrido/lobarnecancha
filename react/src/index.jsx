@@ -15,8 +15,8 @@ firebase.initializeApp({
 });
 
 
-import App from './components/app'
-import Cancha from './components/cancha'
+import App from './components/App'
+import Cancha from './components/Cancha'
 
 
 render((

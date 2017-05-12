@@ -1,0 +1,167 @@
+// Flex  
+  // %aling-center{
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+
+  // .header{
+  //   @extend %aling-center;
+  //   background-color: green;
+  //   color: white;
+  //   height: 50vh;
+  //   width: 100%;
+  // }
+
+  // .buscador{
+  //   @extend %aling-center;
+  //   margin: 1rem 0;
+  //   width: 100%;
+  // }
+
+  // .lista{
+  //   background: navy;
+  //   @extend %aling-center;
+  //   flex-wrap: wrap;
+    
+  //   &-tarjeta{
+  //     @extend %aling-center;
+  //     background-position: center;
+  //     background-repeat: no-repeat;
+  //     background-size: cover;
+  //     // height: 12rem;
+  //     overflow: hidden;
+  //     position: relative;
+  //     text-align: center;
+  //     width: 100%;
+      
+  //     &-titulo{
+  //       background:  linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.63) 72%, rgba(0,0,0,0.81) 100%);
+  //       bottom: 0;
+  //       color: white;
+  //       left: 0;
+  //       margin-bottom: 0;
+  //       padding: 1rem 0 .5rem;
+  //       position: absolute;
+  //       width: 100%;
+  //     }
+  //   }
+
+  // }
+  // @include respond-to(s){
+  //   .lista{
+  //     &-tarjeta{
+  //       width: 50%;
+  //     }
+  //   }
+  // }
+  // @include respond-to(m){
+  //   .lista{
+  //     &-tarjeta{
+  //       width: 33.3333%;
+  //     }
+  //   }
+  // }
+  // @include respond-to(l){
+  //   .lista{
+  //     &-tarjeta{
+  //       width:25%;
+  //     }
+  //   }
+  // }
+
+// Grid
+  %center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .grid-main{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 20rem 3rem auto 3rem;
+    grid-template-areas:
+      "header"
+      "buscador"
+      "lista"
+      "footer";
+    justify-items: stretch;
+    align-items: stretch;
+  }
+  .header{
+    @extend %center-center;
+    background-color: green;
+    color: white;
+    grid-area: header;
+  }
+  .buscador{
+    @extend %center-center;
+    grid-area: buscador;
+  }
+  .lista{
+    grid-area: lista;
+
+    &-grid{
+      align-items: stretch;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      justify-items: center;
+    }
+
+    &-tarjeta{
+      background: black;
+      position: relative;
+      overflow: hidden;
+      &:hover{
+        .lista-tarjeta-titulo{
+          transform: scale(1.1)
+        }
+        .lista-tarjeta-imagen{
+          transform: scale(1.5)
+        }
+      }
+
+      &-imagen{
+        transition: $animation;
+        transition-duration: 2s;
+      }
+
+      &-titulo{
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 75%, rgba(0,0,0,.7) 100%);
+        bottom: 0;
+        color: white;
+        left: 0;
+        margin: 0;
+        padding: .5rem;
+        position: absolute;
+        text-align: center;
+        transition: $animation;
+        width: 100%;
+      }
+    }
+  }
+
+  .piepagina{
+    @extend %center-center;
+    background-color: orangered;
+    color: white;
+    grid-area: footer;
+  }
+
+  @include respond-to(s){
+    .lista{
+      &-grid{
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+  @include respond-to(m){
+    .lista{
+      &-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+  }

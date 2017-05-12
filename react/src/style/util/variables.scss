@@ -1,7 +1,7 @@
 /* ·SETTINGS
   ========================================================================== */
 
-$incluir__grid						     : true;
+$incluir__grid						     : false;
 $incluir__grid--v-h            : false;
 
 
@@ -32,7 +32,7 @@ $incluir__grid--v-h            : false;
 
 $breakpoints: (
   xs: 300px,
-  s: 520px,
+  s: 460px,
   m: 768px,
   l: 1024px,
   xl: 1400px
@@ -105,7 +105,7 @@ $color-secondary  : #058789;
 $color-tertiary   : #FFC857;
 
 // Web
-$background				: rgb(100,100,100);
+$background				: white;
 $bordercolor			:	white;
 $selection-bgc		: $color-base-light;
 $selection-color	: initial;

@@ -7,9 +7,9 @@ export default class Search extends Component {
 
   render () {
     return (
-      <div>
+      <section className="buscador">
         <input type="text" placeholder="Buscar Cancha" onChange={this.props.searchBy}/>
-      </div>   
+      </section>   
     )
   }
 }
